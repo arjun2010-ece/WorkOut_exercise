@@ -1,0 +1,37 @@
+<html ng-app="7minWorkout">
+<head>
+<title>New ANgular APP</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top top-navbar">
+        <div class="container app-container">
+            <div class="navbar-header">
+                <h1 text-center>7 Minute Workout</h1>
+            </div>
+        </div>
+</div>
+
+
+<div class="container body-content app-container">
+
+<div id="leftNav"></div>
+<div ng-view></div>
+<div id="rightNav"></div>
+
+
+
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+<script src="js/workout.js"></script>
+<script src="js/filter/filters.js"></script>
+
+</body>
+</html>
